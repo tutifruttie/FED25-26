@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+/* Bron: Google Fonts, Special Elite font: https://fonts.google.com/specimen/Special+Elite */
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top:0;
+}
+
+header button {
+  font-family: "Special", Arial, sans-serif;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+header button:hover {
+	text-decoration: underline;
+
+}
+
+header button:focus-visible {
+  outline: 3px solid yellow; /* visible keyboard focus */
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%; /* hidden off-screen */
+  width: 300px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  transition: right 0.3s ease;
+   font-family: 'Special Elite', Arial, sans-serif;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 3rem;
+}
+
+.menu li {
+  margin: 2rem 0;
+}
+
+.menu.show {
+  right: 0; /* slide in */
+}
+
+
+/* Main page */
+
+.main a {
+	text-decoration-line: none;
+	color: white;
+}
+
+	/* Tweede section */
+
+.main section:nth-of-type(2) {
+	background-color: #000;
+	overflow: hidden;
+	font-family: Special Elite, sans-serif;
+
+	h2 {
+		padding: 0 3rem;
+	}
+
+	ul {
+		padding: 0 1rem;
+		overflow: scroll;
+		display: flex;
+		position: inherit;
+
+		p {
+			background-color: #dcdbd9;
+			color: #000;
+			display: inline;
+			position: relative;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	li {
+		list-style: none;
+		width: 80vw;
+		margin: 0 2rem;
+
+		img:first-of-type {
+			width: 60vw;
+			border-bottom: .1rem solid white;
+			border-top: .1rem solid white;
+			border-left: .4rem solid white;
+			border-right: .4rem solid white;
+		}
+		
+		img:last-of-type {
+			margin-top: -4rem;
+		}
+	}
+
+	div {
+		display: flex;
+		align-items: center;
+
+		img {
+			margin: 0 1rem;
+			height: 40%;
+			cursor: pointer;
+		}
+
+		img:last-of-type {
+			rotate: 180deg;
+		}
+	}
+}
+
+.main section:nth-of-type(3) {
+	background-color: black;
+
+	ul {
+		list-style: none;
+		display: flex;
+		width: 80%;
+		overflow: scroll;
+	}
+
+	li {
+		transition: .5s;
+		padding: 0;
+		width: 60vw;
+
+		a {
+			display: flex;
+			flex-direction: column;
+			width: 60vw;
+		}
+	}
+
+	img {
+		width: 50%;
+	}
+
+	li p {
+		background-image: linear-gradient(white, white);
+		background-size: 0 1px;
+		background-position: 100% 100%;
+		background-repeat: no-repeat;
+		transition: .6s;
+		display: inline;
+	}
+
+	li:hover p {
+		background-size: 100% 1px;
+		background-position: 0 100%;
+	}
+
+	h2 {
+		margin: 0 3rem;
+		font-family: Special Elite, sans-serif;
+	}
+}
+
+
+section:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+section:first-of-type video {
+  position:fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+section:first-of-type img {
+  max-width: 60%;
+}
+
+.release-date {
+	background: none;
+	 font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Story page */
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.story h1 {
+  font-family: "Special Elite", Arial, sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+
+
+}
+
+.story {
+  position: relative;
+  color: #fff; 
+  font-family: "Special Elite", Arial, sans-serif;
+}
+
+.story h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  animation: tremble 0.3s infinite alternate;
+  position: absolute;
+  left: 20px;
+top: 0;
+margin:0;
+
+}
+
+.story-images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.story-images img {
+  width: 48%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.story p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  margin:0;
+
+}
+
+@keyframes tremble { /* https://www.css-animations.com/ */
+  from { transform: rotate(-1deg); }
+  to { transform: rotate(1deg); }
+}
+body {
+  margin: 0;
+  background-color: #000; /* fallback */
+  color: #fff;
+}
+.main section:nth-of-type(3) li img {
+  transition: transform 0.3s ease;
+}
+
+.main section:nth-of-type(3) li:hover img {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+/*https://www.residentevil.com/re4/*
