@@ -56,10 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-- Tekst op de video-achtergrond had soms te weinig contrast, dit heb ik opgelost door een witte tekst en donkere overlay.
+- Tekst op de video-achtergrond had soms te weinig contrast, dit heb ik opgelost door een witte tekst en donkere overlay
 - Afbeeldingen misten beschrijvingen in de alt attributen
-- Video speelt automatisch af zonder geluid, dus ik heb een tekst toegevoegd voor browsers die geen video ondersteunen.(?)
-- Release date stond eerst in gewone <p en heb deze nu in een <time> element voor betere toegankelijkheid.
+- Video speelt automatisch af zonder geluid, dus ik heb een tekst toegevoegd voor browsers die geen video ondersteunen
+- Release date stond eerst in gewone <p en heb deze nu in een <time> element voor betere toegankelijkheid
 
 
 ## Breakdownschets (week 1)
@@ -159,11 +159,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-
 - Eerste echte screenreader-test uitgevoerd met VoiceOver
 - Navigatie met Tab en Control+Option getest: header werkte, maar de meeste links werden niet herkend.
-   Buttons in de header nu met duidelijke :focus-visible styling → gele outline.
-- Consistente taal: Taal-knop toegevoegd (EN/NL toggle), inclusief aria-label.
+- Buttons in de header nu met duidelijke :focus-visible styling met een gele outline.
 - Ik heb de headings elementen in de juiste volgorde herschreven voor betere structuur en hyrarchie.
 - Ik heb Labels toegevoegd aan invoervelden (first name, last name, e-mail and submit). Zonder labels was het niet toegankelijk voor screenreaders.
 
