@@ -1,22 +1,82 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2526</title>
-
-	<link href="styles/style.css" rel="stylesheet">
-
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="author" content="Your Name">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resident Evil: Requiem – Accessible Version</title>
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
-<body>
-	<h1>Howdy FED2526</h1>
+<body class="main">
+  <header>
+    <button aria-label="Change language to English (US)">
+      <img src="images/icon_lang.svg" alt="" aria-hidden="true">
+      EN-US
+    </button>
+    <button aria-label="Open main menu">Menu</button>
+ </header>
 
-	<script defer src="scripts/script.js"></script>
-</body>
+ <nav class="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="story.html">Story</a></li>
+    <li><a href="">Trailers</a></li>
+    <li><a href="">News</a></li>
+    <li><a href="">Shop</a></li>
+  </ul>
+</nav>
+
+  <main>
+    <section class="homepage-section" aria-labelledby="game-title">
 	
+      <video autoplay muted loop playsinline aria-hidden="true" 
+	  src="videos/mainVisual_bg_sp.webm"> 	/*https://css-tricks.com/what-does-playsinline-mean-in-web-video*/
+      </video> 
+
+      <img src="images/logo_w.webp" alt="Resident Evil: Requiem logo" id="game-title">
+      <p class="date">
+        <time datetime="2026-02-27">February 27, 2026</time>
+      </p>
+	  <a href="story.html">Read the Story</a>
+    </section>
+	<section>
+		<h2>Trailers</h2>
+		<ul>
+			<li><a href=""><img src="./images/thumb_4.webp" alt=""><img src="./images/icon_btn.webp" alt=""><p>2nd Trailer</p></a></li>
+			<li><a href=""><img src="./images/thumb_3.webp" alt=""><img src="./images/icon_btn.webp" alt=""><p>Nintendo Switch 2 Trailer</p></a></li>
+			<li><a href=""><img src="./images/thumb_2.webp" alt=""><img src="./images/icon_btn.webp" alt=""><p>Creators Message</p></a></li>
+			<li><a href=""><img src="./images/thumb_1.webp" alt=""><img src="./images/icon_btn.webp" alt=""><p>Reveal Trailer</p></a></li>
+		</ul>
+		<div>
+			<img src="./images/icon_arrow.webp" alt="">
+			<p>01/04</p>
+			<img src="./images/icon_arrow.webp" alt="">
+		</div>
+	</section>
+	<section>
+		<h2>News</h2>
+		<ul>
+			<li><a href=""><time datetime="2025-09-25">9/25 <span>2025</span></time>
+				<img src="./images/thumb_news_20250925_2.webp" alt="Capcom news"><p>New Capcom official apparel designs are now available on Amazon!</p></a></li>
+			<li><a href=""><time datetime="2025-09-13"></time><img src="./images/thumb_news_20250913.webp" alt="Resident Evil Requiem news"><p>Resident Evil Requiem is coming to Nintendo Switch 2!</p></a></li>
+			<li><a href=""><time datetime="2025-06-19"></time><img src="./images/thumb_news_20250627.webp" alt="Capcom spotlight news"><p>The Capcom Spotlight is a digital event that brings you the latest news from Capcom! Starts: Thursday, June 26, 2025, at 3PM (PDT)</p></a></li>
+			<li><a href=""><time datetime="2025-06-27"></time><img src="./images/thumb_news_20250627_2.webp" alt="Creators'Message news "><p>An exclusive interview with the developers of Resident Evil Requiem for Resident Evil Portal members is available now! </p></a></li>
+		</ul>
+	</section>
+  </main>
+  <section>
+	<section>
+  <h2>Forum</h2>
+  <form>
+    <p><input type="text" name="first-name" placeholder="First name"></p>
+    <p><input type="text" name="last-name" placeholder="Surname"></p>
+    <p><input type="email" name="email" placeholder="Email"></p>
+    <p><input type="submit" value="Submit"></p>
+  </form>
+</section>
+  <script defer src="scripts/script.js"></script>
+</body>
 </html>
+
