@@ -56,11 +56,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-25 issues are present related to cookies
-There are videos without audio present, however there are silent videos of gameplay playing that cannot be paused.
-
-</details>
-
+- Tekst op de video-achtergrond had soms te weinig contrast, dit heb ik opgelost door een witte tekst en donkere overlay.
+- Afbeeldingen misten beschrijvingen in de alt attributen
+- Video speelt automatisch af zonder geluid, dus ik heb een tekst toegevoegd voor browsers die geen video ondersteunen.(?)
+- Release date stond eerst in gewone <p en heb deze nu in een <time> element voor betere toegankelijkheid.
 
 
 ## Breakdownschets (week 1)
@@ -105,8 +104,8 @@ There are videos without audio present, however there are silent videos of gamep
   ### Agenda voor meeting
   samen met je groepje opstellen
  Feedback op eerste layout.
-  | student 1      | student 2          | student 3    | student 4        
-  | Bespreken welke
+  | student 1      |      |  2    | 
+  | Bespreken welke        "Voeg meer interactieve elementen toe"
    elementen
   toegankelijker
    moeten worden                             
@@ -116,8 +115,7 @@ There are videos without audio present, however there are silent videos of gamep
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- breakdown schets kan nog naukeuriger
-
+-Ik had alleen mijn breakdownschets klaar en daarop feedback gekregen dat mijn indeling nog naukeuriger kan.
 
 
 
@@ -127,28 +125,27 @@ There are videos without audio present, however there are silent videos of gamep
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
- Eerste tests met WCAG-checklist, ik he gekeken naar contrast, alt-teksten, buttons.
- Buttons en menu interactief gemaakt met JavaScript
+ - Eerste tests met WCAG-checklist, ik he gekeken naar contrast, alt-teksten en buttons.
+ Buttons en menu interactief gemaakt met JavaScript. Ook de pijltjes onder de Trailer itetms heb ik interactief gemaakt. Je kunt ook scrollen
  Menu en buttons laten werken via keyboard (tab-focus), expirimenteren met screen reader
 
-- Ik heb moeite met de CSS positionering met visible focus
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+         
+  Student 1: Er werd gezegd
+  dat ik meer semantische
+  HTML-tags moest gebruiken   
+  in plaats van alleen <div>.    
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Student 2: Het testen van kleurcontrasten is essentieel   
+  
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
+- Positief: mijn toepassing van de WCAG-checklist was al goed zichtbaar.  
 - ...
 </details>
 
@@ -163,9 +160,12 @@ There are videos without audio present, however there are silent videos of gamep
 
   ### Bevindingen
 
- - Eerste echte screenreader-test uitgevoerd met VoiceOver
-- Navigatie met Tab en Control+Option getest: header werkte, maar de meeste links werden niet herkend.  
-
+- Eerste echte screenreader-test uitgevoerd met VoiceOver
+- Navigatie met Tab en Control+Option getest: header werkte, maar de meeste links werden niet herkend.
+   Buttons in de header nu met duidelijke :focus-visible styling → gele outline.
+- Consistente taal: Taal-knop toegevoegd (EN/NL toggle), inclusief aria-label.
+- Ik heb de headings elementen in de juiste volgorde herschreven voor betere structuur en hyrarchie.
+- Ik heb Labels toegevoegd aan invoervelden (first name, last name, e-mail and submit). Zonder labels was het niet toegankelijk voor screenreaders.
 
 
 
@@ -177,6 +177,7 @@ There are videos without audio present, however there are silent videos of gamep
   ### Stand van zaken
   hier dit ging goed & dit was <img width="1470" height="956" alt="Screenshot 2025-10-02 at 17 30 16" src="https://github.com/user-attachments/assets/4ee7bc22-53c3-4fea-afc2-8d79d3384390" /> 
 Ik vond de H2 element News ingewikkeld om te coderen 
+
   
 
 
@@ -210,21 +211,36 @@ Ik vond de H2 element News ingewikkeld om te coderen
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1"><img width="467" height="672" alt="Screenshot 2025-10-03 at 11 19 24" src="https://github.com/user-attachments/assets/ba108ab2-d4e4-4240-bfb3-6bee79119703" />
+<img width="472" height="668" alt="Screenshot 2025-10-03 at 11 00 15" src="https://github.com/user-attachments/assets/68861bfa-fc4a-4bf1-93d3-155e258c8282" />
+<img width="471" height="671" alt="Screenshot 2025-10-03 at 10 59 25" src="https://github.com/user-attachments/assets/f4000d05-27c7-415c-bcc5-eb44523b29d9" />
+<img width="383" height="551" alt="Screenshot 2025-10-03 at 11 06 33" src="https://github.com/user-attachments/assets/f8c6bcee-570d-4d31-9974-b622a5a3c4b9" />
+<img width="383" height="548" alt="Screenshot 2025-10-03 at 11 04 53" src="https://github.com/user-attachments/assets/307bfb70-ba44-4751-8ba2-53287de94f3c" />
+<img width="469" height="668" alt="Screenshot 2025-10-03 at 11 15 38" src="https://github.com/user-attachments/assets/c86b7b22-0d1a-45fa-aa92-7e3b7a93f079" />
+<img width="471" height="672" alt="Screenshot 2025-10-03 at 11 15 59" src="https://github.com/user-attachments/assets/d8a0a828-f6d6-46a4-9c18-8ec5c7d88805" />
+<img width="476" height="673" alt="Screenshot 2025-10-03 at 11 16 11" src="https://github.com/user-attachments/assets/0b673ed9-df34-4721-86d2-4c59fde4d3bb" />
+<img width="472" height="668" alt="Screenshot 2025-10-03 at 11 16 42" src="https://github.com/user-attachments/assets/1ded259b-b728-4f91-85b4-4d758f72c0e4" />
+<img width="469" height="674" alt="Screenshot 2025-10-03 at 11 17 01" src="https://github.com/user-attachments/assets/7d7b2df6-8dad-4897-a312-cb2c30633322" />
+<img width="474" height="672" alt="Screenshot 2025-10-03 at 11 17 13" src="https://github.com/user-attachments/assets/cbe0c007-3d76-4aab-b3b1-76b477c031e4" />
+<img width="472" height="669" alt="Screenshot 2025-10-03 at 11 18 12" src="https://github.com/user-attachments/assets/6e8ea64c-f270-4038-8cab-83961e325923" />
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  - De WCAG-checklist gebruiken om mijn website te verbeteren en toegankelijker te maken.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  - Het was lastig om de nieuwssectie goed vorm te geven zoals op de originele website.
+  - De plaatsing van de Story H2 titel was lastig, omdat die eerst in de header viel en ik ergens in mijn code een overflow: hidden had geplaats en ook een width van 100% waardoor dit overlapte en de layout niet meer klopt. Ik heb dit gefixt door de padding weg te halen, overflow: scroll te maken op de ul items en de width te verlagen naar 80%
+  - Ik ben vergeten fotos te maken tijdens het coderen van de website 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
 
 
 
