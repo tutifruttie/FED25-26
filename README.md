@@ -164,6 +164,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - Buttons in de header nu met duidelijke :focus-visible styling met een gele outline.
 - Ik heb de headings elementen in de juiste volgorde herschreven voor betere structuur en hyrarchie.
 - Ik heb Labels toegevoegd aan invoervelden (first name, last name, e-mail and submit). Zonder labels was het niet toegankelijk voor screenreaders.
+- Tekst op de story-pagina was niet altijd even goed leesbaar door de achtergrond. Ik heb daarom de paragrafen meer leesbaar gemaakt door ze een witte achtergrond te geven, dit zorgt voor een betere text contrast en leesbaarheid volgens de WCAG checklist. 
 
 
 
@@ -221,6 +222,7 @@ Ik vond de H2 element News ingewikkeld om te coderen
 <img width="469" height="674" alt="Screenshot 2025-10-03 at 11 17 01" src="https://github.com/user-attachments/assets/7d7b2df6-8dad-4897-a312-cb2c30633322" />
 <img width="474" height="672" alt="Screenshot 2025-10-03 at 11 17 13" src="https://github.com/user-attachments/assets/cbe0c007-3d76-4aab-b3b1-76b477c031e4" />
 <img width="472" height="669" alt="Screenshot 2025-10-03 at 11 18 12" src="https://github.com/user-attachments/assets/6e8ea64c-f270-4038-8cab-83961e325923" />
+<img width="470" height="669" alt="Screenshot 2025-10-03 at 12 17 31" src="https://github.com/user-attachments/assets/8e28c98f-3d35-4b7a-8190-e742aade168a" />
 
 
 
