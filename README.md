@@ -56,7 +56,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+25 issues are present related to cookies
+There are videos without audio present, however there are silent videos of gameplay playing that cannot be paused.
 
 </details>
 
@@ -92,29 +93,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+- Eerste layout gemaakt voor de Resident Evil Requiem homepage.
+- ik heb alle videos en afbeeldingen gedwonload  
+- Begin gemaakt met buttons en links
+- gekeken naar kleurcontrasten
+  
+- CSS positionering en spacing nog lastig te controleren op kleinere schermen
+  
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ Feedback op eerste layout.
+  | student 1      | student 2          | student 3    | student 4        
+  | Bespreken welke
+   elementen
+  toegankelijker
+   moeten worden                             
+        | ...                | ...          | ...
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-</details>
-
+- breakdown schets kan nog naukeuriger
 
 
 
@@ -125,8 +127,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Eerste tests met WCAG-checklist, ik he gekeken naar contrast, alt-teksten, buttons.
+ Buttons en menu interactief gemaakt met JavaScript
+ Menu en buttons laten werken via keyboard (tab-focus), expirimenteren met screen reader
 
+- Ik heb moeite met de CSS positionering met visible focus
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -145,7 +150,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - punt 2
   - nog een punt
 - ...
-
 </details>
 
 
@@ -158,10 +162,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-</details>
-
+ - Eerste echte screenreader-test uitgevoerd met VoiceOver
+- Navigatie met Tab en Control+Option getest: header werkte, maar de meeste links werden niet herkend.  
 
 
 
@@ -172,7 +175,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was <img width="1470" height="956" alt="Screenshot 2025-10-02 at 17 30 16" src="https://github.com/user-attachments/assets/4ee7bc22-53c3-4fea-afc2-8d79d3384390" /> 
+Ik vond de H2 element News ingewikkeld om te coderen 
+  
 
 
   ### Agenda voor meeting
@@ -233,8 +238,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+1. https://www.w3.org/WAI/WCAG21/quickref/  – WCAG 2.1 Checklist
+2. https://css-tricks.com/what-does-playsinline-mean-in-web-video/ – uitleg playsinline
+3. https://developer.mozilla.org/en-US/docs/Web/Accessibility – MDN accessibility
+4. ChatGPT – hulp bij uitleg en voorbeelden
+5. Resident Evil official site – originele content en screenshots
+
 
 </details>
