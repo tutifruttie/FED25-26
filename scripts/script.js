@@ -32,7 +32,7 @@ langBtn.addEventListener("click", () => {
     langBtn.setAttribute("aria-label", "Change language to English (US)");
   } // https://www.w3schools.com/jsref/met_element_setattribute.asp
 });
-
+  
 const menuBtn = document.querySelector("header button:last-of-type");
 const menu = document.querySelector(".menu");
 const closeMenuBtn = document.querySelector(".close-menu");
@@ -44,5 +44,4 @@ menuBtn.addEventListener("click", () => {
 closeMenuBtn.addEventListener("click", () => {
   menu.classList.remove("show");
 });
-// JavaScript Document
-console.log("hi");
+
