@@ -246,6 +246,21 @@ Ik vond de H2 element News ingewikkeld om te coderen
 </details>
 
 
+### Reflectie op herkansing
+
+Voor de herkansing heb ik de volgende verbeteringen doorgevoerd:
+- Een echt en toegankelijk formulier toegevoegd met gekoppelde <label> elementen en CSS-validatie, namelijk ik heb groene/rode border bij validatie.
+- Het navigatiemenu functioneel gemaakt: open/gesloten met een sluit-knop en het menu werkt op beide pagina’s.
+- De story-pagina visueel verbeterd:... MOET NOG 
+- Kleine styling en consistentieverbeteringen doorgevoerd ( font, header sticky, focus-states). MOET NOG 
+
+Wat ik geleerd heb:
+- Hoe je formulieren toegankelijk maakt en visuele validatie met pure CSS toepast.
+- Hoe aria-attributes en focus-management belangrijk zijn voor screenreader en keyboardgebruikers.
+- Het belang van consistente styling tussen pagina’s.
+
+Wat ik nog wil verbeteren:
+- 
 
 
 ## Bronnenlijst
