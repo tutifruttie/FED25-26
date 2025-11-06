@@ -17,16 +17,17 @@
     </button>
     <button aria-label="Open main menu">Menu</button>
  </header>
-
  <nav class="menu">
+  <button class="close-menu" aria-label="Close menu">✕</button>
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="story.html">Story</a></li>
-    <li><a href="">Trailers</a></li>
-    <li><a href="">News</a></li>
-    <li><a href="">Shop</a></li>
+    <li><a href="#">Trailers</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Shop</a></li>
   </ul>
 </nav>
+
 
   <main>
     <section class="homepage-section" aria-labelledby="game-title">
@@ -37,9 +38,9 @@
 
       <img src="images/logo_w.webp" alt="Resident Evil: Requiem logo" id="game-title">
       <p class="date">
-        <time datetime="2026-02-27">February 27, 2026</time>
-      </p>
+        <time datetime="2026-02-27">February 27, 2026</time><br><Br>
 	  <a href="story.html">Read the Story</a>
+      </p>
     </section>
 	<section>
 		<h2>Trailers</h2>
@@ -66,16 +67,7 @@
 		</ul>
 	</section>
   </main>
-  <section>
-	<section>
-  <h2>Forum</h2>
-  <form>
-    <p><input type="text" name="first-name" placeholder="First name"></p>
-    <p><input type="text" name="last-name" placeholder="Surname"></p>
-    <p><input type="email" name="email" placeholder="Email"></p>
-    <p><input type="submit" value="Submit"></p>
-  </form>
-</section>
+
   <script defer src="scripts/script.js"></script>
 </body>
 </html>
