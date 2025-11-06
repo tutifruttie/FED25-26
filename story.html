@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resident Evil: Requiem – Story</title>
-    <link href="styles/style.css" rel="stylesheet"> <!-- ADD THIS -->
-    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resident Evil: Requiem – Story</title>
+  <link href="styles/style.css" rel="stylesheet"> <!-- ADD THIS -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 <body>
-    <header>
-        <button aria-label="Change language to English (US)">
-          <img src="images/icon_lang.svg" alt="" aria-hidden="true">
-          EN-US
-        </button>
-        <button aria-label="Open main menu">Menu</button>
-    </header>
 
-    <main>
-        <section class="story">
-            <h1>Story</h1>
+  <header>
+    <button aria-label="Change language to English (US)">
+      <img src="images/icon_lang.svg" alt="" aria-hidden="true">
+      EN-US
+    </button>
+    <button aria-label="Open main menu">Menu</button>
+  </header>
 
-            <div class="story-images">
-                <img src="images/story_main_1.webp" alt="">
-                <img src="images/story_main_2.webp" alt="">
-     
-            </div>
-            <p>
-           Everything is set in motion when a body—the victim of an unidentifiable disease—is discovered in an abandoned hotel.
-            </p> <br>
-            <p>
-             FBI analyst Grace Ashcroft is assigned to the case. But the crime scene is at the very same hotel where her mother died eight years ago.
-            </p> <br>
-            <p>
-                Grace prepares to finally face the past and makes her way to the scene, but this one case leads to uncovering the hidden truth behind the outbreak in Raccoon City, the biological disaster that shook the world.
-            </p> <br>
-            <p>
-                Will this be the requiem that finally lays the memories of that abhorrent disaster to rest?
+  <nav class="menu">
+    <button class="close-menu" aria-label="Close menu">✕</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="story.html">Story</a></li>
+      <li><a href="#">Trailers</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
+  </nav>
 
-            </p>
-        </section>
-    </main>
+  <main>
+
+    <section class="story">
+      <h1>Story</h1>
+
+      <div class="story-images">
+        <img src="images/story_main_1.webp" alt="">
+        <img src="images/story_main_2.webp" alt="">
+      </div>
+
+      <p>
+        Everything is set in motion when a body—the victim of an unidentifiable disease—is discovered in an abandoned hotel.
+      </p><br>
+      <p>
+        FBI analyst Grace Ashcroft is assigned to the case. But the crime scene is at the very same hotel where her mother died eight years ago.
+      </p><br>
+      <p>
+        Grace prepares to finally face the past and makes her way to the scene, but this one case leads to uncovering the hidden truth behind the outbreak in Raccoon City, the biological disaster that shook the world.
+      </p><br>
+      <p>
+        Will this be the requiem that finally lays the memories of that abhorrent disaster to rest?
+      </p>
+    </section>
+
+    <section class="gameplay">
+      <h1>Gameplay</h1>
+      <p>
+        Experience the series' classic survival horror through combat, investigation, puzzles, and resource management. 
+        Gameplay allows you to freely switch between first- and third-person perspectives to face the horrors in a way that suits your playstyle.
+      </p>
+
+      <div class="gameplay-mode">
+        <h2>First-person Perspective</h2>
+        <p>Immerse yourself directly in Grace’s experience and uncover the truth up close, with heightened tension and realism.</p>
+        <img src="images/gameplay_thumb1.webp" alt="First-person gameplay view">
+      </div>
+
+      <div class="gameplay-mode">
+        <h2>Third-person Perspective</h2>
+        <p>Explore environments and manage combat strategically while keeping full awareness of your surroundings.</p>
+        <img src="images/gameplay_thumb2.webp" alt="Third-person gameplay view">
+      </div>
+    </section>
+
+    <article class="contact">
+      <h2>Contact</h2>
+      <form id="contactForm" action="#" method="post" novalidate>
+        <label for="firstName">First name</label>
+        <input id="firstName" name="firstName" type="text" required>
+
+        <label for="lastName">Last name</label>
+        <input id="lastName" name="lastName" type="text" required>
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required>
+
+        <input type="submit" value="Submit">
+      </form>
+    </article>
+
+  </main>
+
+  <script defer src="scripts/script.js"></script>
 </body>
 </html>
